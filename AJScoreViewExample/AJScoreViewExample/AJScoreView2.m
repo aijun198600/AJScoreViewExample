@@ -28,9 +28,6 @@
     [starPath addLineToPoint: CGPointMake(47.18, 25.86)];
     [starPath closePath];
     
-//    [[UIColor grayColor] setFill];
-//    [starPath fill];
-    
     //复制平移操作
     CGRect pathBounds = starPath.bounds;
     UIBezierPath *totalPath = [UIBezierPath bezierPath];
