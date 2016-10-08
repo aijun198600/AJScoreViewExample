@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FF2B570A1DA8A7CF00F6DFE2 /* AJScroView3.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2B57091DA8A7CF00F6DFE2 /* AJScroView3.m */; };
+		FF2B570D1DA8D62A00F6DFE2 /* AJScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2B570C1DA8D62A00F6DFE2 /* AJScoreView.m */; };
 		FF32E6411DA5E1DE00530B67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF32E6401DA5E1DE00530B67 /* main.m */; };
 		FF32E6441DA5E1DE00530B67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF32E6431DA5E1DE00530B67 /* AppDelegate.m */; };
 		FF32E6471DA5E1DE00530B67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF32E6461DA5E1DE00530B67 /* ViewController.m */; };
@@ -40,6 +41,8 @@
 /* Begin PBXFileReference section */
 		FF2B57081DA8A7CF00F6DFE2 /* AJScroView3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJScroView3.h; sourceTree = "<group>"; };
 		FF2B57091DA8A7CF00F6DFE2 /* AJScroView3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJScroView3.m; sourceTree = "<group>"; };
+		FF2B570B1DA8D62A00F6DFE2 /* AJScoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJScoreView.h; sourceTree = "<group>"; };
+		FF2B570C1DA8D62A00F6DFE2 /* AJScoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJScoreView.m; sourceTree = "<group>"; };
 		FF32E63C1DA5E1DE00530B67 /* AJScoreViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AJScoreViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF32E6401DA5E1DE00530B67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FF32E6421DA5E1DE00530B67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 				FF32E6761DA630A700530B67 /* AJScoreView2.m */,
 				FF2B57081DA8A7CF00F6DFE2 /* AJScroView3.h */,
 				FF2B57091DA8A7CF00F6DFE2 /* AJScroView3.m */,
+				FF2B570B1DA8D62A00F6DFE2 /* AJScoreView.h */,
+				FF2B570C1DA8D62A00F6DFE2 /* AJScoreView.m */,
 				FF32E6481DA5E1DE00530B67 /* Main.storyboard */,
 				FF32E64B1DA5E1DE00530B67 /* Assets.xcassets */,
 				FF32E64D1DA5E1DE00530B67 /* LaunchScreen.storyboard */,
@@ -295,6 +300,7 @@
 				FF32E6471DA5E1DE00530B67 /* ViewController.m in Sources */,
 				FF2B570A1DA8A7CF00F6DFE2 /* AJScroView3.m in Sources */,
 				FF32E6441DA5E1DE00530B67 /* AppDelegate.m in Sources */,
+				FF2B570D1DA8D62A00F6DFE2 /* AJScoreView.m in Sources */,
 				FF32E6771DA630A700530B67 /* AJScoreView2.m in Sources */,
 				FF32E6411DA5E1DE00530B67 /* main.m in Sources */,
 			);

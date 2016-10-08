@@ -37,6 +37,12 @@
                                     <constraint firstAttribute="height" constant="100" id="XTm-pF-Vzq"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="98C-Jy-Quk" customClass="AJScoreView">
+                                <color key="backgroundColor" red="1" green="0.53049797060000004" blue="0.1138098295" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="nna-dd-92i"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -45,10 +51,13 @@
                             <constraint firstAttribute="leadingMargin" secondItem="y2y-XL-nAk" secondAttribute="leading" id="9aQ-Ia-RyJ"/>
                             <constraint firstItem="umS-S9-pOP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9x2-ou-IFd"/>
                             <constraint firstItem="0a3-zi-mcr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GCg-6r-S7h"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="98C-Jy-Quk" secondAttribute="trailing" id="JoU-AH-BLR"/>
                             <constraint firstItem="0a3-zi-mcr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="KID-Db-WDo"/>
+                            <constraint firstItem="98C-Jy-Quk" firstAttribute="top" secondItem="y2y-XL-nAk" secondAttribute="bottom" constant="20" id="Mfp-La-BiX"/>
                             <constraint firstAttribute="trailingMargin" secondItem="y2y-XL-nAk" secondAttribute="trailing" id="XND-m9-HaE"/>
                             <constraint firstItem="y2y-XL-nAk" firstAttribute="top" secondItem="umS-S9-pOP" secondAttribute="bottom" constant="20" id="bhr-74-3zZ"/>
                             <constraint firstItem="umS-S9-pOP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="huS-CK-a1u"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="98C-Jy-Quk" secondAttribute="leading" id="yP7-fG-Sgx"/>
                         </constraints>
                     </view>
                 </viewController>
